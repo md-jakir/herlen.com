@@ -37,3 +37,12 @@ _A larger number of PHP-FPM and Apache requests were found at that time and hold
 - Log Location: /root/BS-23
 - Kernel dmesg log states deleting php-fpm process due to high ram usages
 - **Note:** _dmesg logs are placed in server location. Location is /root/BS-23/ dmesg_log_12.05_
+# DB Slow query:
+- Slow queries: 1364
+- Queries per second avg: 24.108 (per second receiving queries)
+# Server Behavior:
+1. **When RAM usages are normal**
+
+| Total Request | Used RAM By PHP | Used RAM By Apache | Used CPU % | Comments |
+| ------------- | --------------- | ------------------ | ---------- | -------- |
+| 14 | 1.04 | 1.3 | 16 | Normal Case |
