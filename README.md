@@ -30,4 +30,10 @@ _A larger number of PHP-FPM and Apache requests were found at that time and hold
 - Currently Apache & Nginx process is 14
 - Every process taken RAM: 95.039 (on an average)
 - Current total RAM required for 14 processes: 95.039*14=1330.55 ~=1.5 GB
-- Note: _If more Apache and & Nginx processes require to run then RAM isn’t sufficient._
+- **Note:** _If more Apache and & Nginx processes require to run then RAM isn’t sufficient._
+# MPM Apache Module:
+- Module-name: mpm_prefork_module (shared)
+# Kernel Dmesg Log
+- Log Location: /root/BS-23
+- Kernel dmesg log states deleting php-fpm process due to high ram usages
+- **Note:** _dmesg logs are placed in server location. Location is /root/BS-23/ dmesg_log_12.05_
