@@ -1,11 +1,8 @@
 # Link:
 
-[Site:](https://herlan.com)
-
-WordPress Application host in AWS with resilient architecture
-
+WordPress Application hosted in AWS with resilient architecture: [Site:](https://herlan.com)
 # https://harlen.com - Project Overview
-This is an E-commerce WordPress application hosted in Godaddy hosting provider. Client was facing the application load issues in the existing hosting platform with current setup. According to business growth it can't handle traffic with the system specifications and there was no load balancer setup to distribute the traffic into available backed systems.
+This is an E-commerce WordPress application was hosted in Godaddy hosting provider. Client was facing the application load issues in the existing hosting platform with current setup. According to business growth it can't handle traffic with the system specifications and there was no load balancer setup to distribute the traffic into available backed systems.
 
 There was another issue with server optimisations. PHP-FPM and Nginx weren't optimized properly. 
 
@@ -52,3 +49,18 @@ _A larger number of PHP-FPM and Apache requests were found at that time and hold
 | Total Request | Need RAM (GB) | Used CPU % | Comments |
 | ------------- | -------------- | ---------- | -------- |
 | 35 | 6 | 38 | Only for Application |
+# Scope of Work
+1. Milestone 1
+- Migrate Application from Godaddy to AWS for scaleable solution
+- Scaleable infrastructure design and implement
+- Configured EC2 with approprite RAM and CPU based on calculation of each PHP-FPM and Nginx process needed
+# Infrastructure Design Diagram
+![herlan com](https://github.com/user-attachments/assets/a5866be1-1967-4119-af47-fc9a285b987b)
+# Used AWS Services:
+- RDS
+- EC2
+- EFS
+- ALB
+- Route 53
+- ACM
+- Auto Scaling Group
