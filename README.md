@@ -46,3 +46,9 @@ _A larger number of PHP-FPM and Apache requests were found at that time and hold
 | Total Request | Used RAM By PHP | Used RAM By Apache | Used CPU % | Comments |
 | ------------- | --------------- | ------------------ | ---------- | -------- |
 | 14 | 1.04 | 1.3 | 16 | Normal Case |
+
+2. When RAM usages `high`:
+
+| Total Request | Need RAM (GB) | Used CPU % | Comments |
+| ------------- | -------------- | ---------- | -------- |
+| 35 | 6 | 38 | Only for Application |
